@@ -103,6 +103,7 @@ function cookRajma(no, callback) {
     callback();
   }, 3000);
 }
+function A() {}
 cookRajma(1, () => {
   console.log("Soak rajma overnight in water.");
   cookRajma(2, () => {
