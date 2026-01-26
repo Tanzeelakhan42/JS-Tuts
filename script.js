@@ -14,13 +14,13 @@ function calculator(a, b, operation) {
 }
 console.log(calculator(2, 3, sum));
 
-function getData(dataId, getNextData) {
+function getData(dataID, getNextData) {
   setTimeout(() => {
-    console.log("Data", dataId);
+    console.log("data dataID");
     if (getNextData) {
       getNextData();
     }
-  }, 3000);
+  }, 2000);
 }
 getData(1, () => {
   getData(2, () => {
